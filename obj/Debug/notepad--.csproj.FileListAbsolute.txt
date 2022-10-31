@@ -1,0 +1,12 @@
+C:\Users\krzys\source\repos\notepad--\notepad--\bin\Debug\notepad--.exe.config
+C:\Users\krzys\source\repos\notepad--\notepad--\bin\Debug\notepad--.exe
+C:\Users\krzys\source\repos\notepad--\notepad--\bin\Debug\notepad--.pdb
+C:\Users\krzys\source\repos\notepad--\notepad--\bin\Debug\FastColoredTextBox.dll
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.csproj.AssemblyReference.cache
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad__.Form1.resources
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad__.Properties.Resources.resources
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.csproj.GenerateResource.cache
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.csproj.CoreCompileInputs.cache
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.csproj.CopyComplete
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.exe
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.pdb
