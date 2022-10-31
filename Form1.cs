@@ -18,16 +18,19 @@ namespace notepad__
         private string cmdcom;
         private int i;
         private int c;
+        public string dir;
+        
 
 
         public Form1()
         {
             InitializeComponent();
+            dir = @"%USERPROFILE%";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*
+            
             fucktext = fastColoredTextBox1.Text;
             filename = textBox1.Text;
             cmdcom = "echo " + fucktext + " > " + filename;
@@ -35,7 +38,7 @@ namespace notepad__
 
             // Create a string array with the lines of text
             string[] lines = { fastColoredTextBox1.Text };
-            string docPath = Directory.GetCurrentDirectory();
+            string docPath = dir;
 
             // Set a variable to the Documents path.
             
@@ -46,27 +49,8 @@ namespace notepad__
                 foreach (string line in lines)
                     outputFile.WriteLine(line);
             };
-            */
-            // Displays a SaveFileDialog so the user can save the Image
-            // assigned to Button2.
-            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-            saveFileDialog1.Filter = "";
-            saveFileDialog1.Title = "Save an Image File";
-            saveFileDialog1.ShowDialog();
+            
 
-            // If the file name is not an empty string open it for saving.
-            if (saveFileDialog1.FileName != "")
-            {
-                // Saves the Image via a FileStream created by the OpenFile method.
-                System.IO.FileStream fs =
-                    (System.IO.FileStream)saveFileDialog1.OpenFile();
-                // Saves the Image in the appropriate ImageFormat based upon the
-                // File type selected in the dialog box.
-                // NOTE that the FilterIndex property is one-based.
-                
-
-                fs.Close();
-            }
         }
 
         private void fileSystemWatcher1_Changed(object sender, FileSystemEventArgs e)
