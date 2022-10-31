@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Notepad--
+ * Check out at github
+ * Tarvey/Notepad--
+ * this is very hard
+ * also
+ * thanks for looking at the file, your prob gonna edit it!
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +33,6 @@ namespace notepad__
         public Form1()
         {
             InitializeComponent();
-            dir = @"%USERPROFILE%";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,10 +42,18 @@ namespace notepad__
             filename = textBox1.Text;
             cmdcom = "echo " + fucktext + " > " + filename;
             i = fastColoredTextBox1.LinesCount;
+            try
+            {
+                Directory.CreateDirectory("Files");
+            }
+            catch
+            {
+                
+            };
 
             // Create a string array with the lines of text
             string[] lines = { fastColoredTextBox1.Text };
-            string docPath = dir;
+            string docPath = "Files";
 
             // Set a variable to the Documents path.
             

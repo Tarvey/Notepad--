@@ -10,3 +10,4 @@ C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.csproj.CoreC
 C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.csproj.CopyComplete
 C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.exe
 C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad--.pdb
+C:\Users\krzys\source\repos\notepad--\notepad--\obj\Debug\notepad__.Form2.resources
